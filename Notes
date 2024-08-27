@@ -15,7 +15,7 @@ website that allows developers to store & manage their code using git. (https://
 
 *configuring git*
 >telling git in which account will we be making changes.
->if we make changes on github using git then through which emailid do we want to do it,what name do we want associate with it.
+>if we make changes on github using git then through which email_id do we want to do it,what name do we want associate with it.
 **commands** 
 >`git config --global user.name "user_name"`
 >`git conig --global user.email "email_address"`
