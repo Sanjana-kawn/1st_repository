@@ -37,3 +37,22 @@ In local configuration  the changes are made for a specific project or repo usin
 now in our local system(vs code for example) changes made and saved will make the folder look <yellow> in colour and show "M" sign which means that 'file is modified'.
 after modifying the file there is a twoste procedure which is : add -> commit.
 >to restore the file to its original form before it was modified,use command: `git restore <filename>` 
+
+
+when we use `git status` command, generally there are 4 stages:
+(a)  untracked - new file that git doesn't yet track
+(b) modified - changed
+(c) staged - file is ready to be commited.(when file is get added but not commited yet)
+(d) unstaged - unchanged.(commited file)
+
+*add and commit command*
+add- adds new or changed files in your working directory to the git staging area.
+     `git add <-file name->`
+*to add all the modified file at once use : `git add .`
+
+commit - it is the record of change.
+        `git commit -m"some message"`
+
+push command :-upload local(our computer) repo content to remote(github) repo.
+               `git push`
+
