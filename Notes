@@ -55,4 +55,5 @@ commit - it is the record of change.
 
 push command :-upload local(our computer) repo content to remote(github) repo.
                `git push`
-
+ if this command doesn't work or shows errors,use this command :
+ 
