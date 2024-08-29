@@ -55,5 +55,19 @@ commit - it is the record of change.
 
 push command :-upload local(our computer) repo content to remote(github) repo.
                `git push`
- if this command doesn't work or shows errors,use this command :
+
+
+if you are facing this kind of problem:
+ $ git add
+fatal: Unable to create 'C:/Users/JJ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+use the command: `rm -f ./.git/index.lock`
+
+
  
