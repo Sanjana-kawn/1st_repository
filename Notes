@@ -68,6 +68,6 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 
 use the command: `rm -f ./.git/index.lock`
-
+ change : by namrata
 
  
