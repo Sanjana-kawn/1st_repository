@@ -25,7 +25,7 @@ In global the changes we make through our system in github will all show up in t
 In local configuration  the changes are made for a specific project or repo using a special email id for it.
 
 **Git Basic Commands**
-*clone - cloning a repository on oour local machine.
+*clone - cloning a repository on our local machine.
        >`git clone <-some link->`
 *status - displays the status of code
        >`git status`
